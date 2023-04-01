@@ -1,0 +1,28 @@
+{
+  "name": "prompt-pro",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "commit": "git-cz",
+    "major": "standard-version -r major --preset gitmoji-config",
+    "minor": "standard-version -r minor --preset gitmoji-config",
+    "patch": "standard-version -r patch --preset gitmoji-config"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^17.5.0",
+    "commitizen": "^4.3.0",
+    "commitlint-config-gitmoji": "^2.3.1",
+    "conventional-changelog-gitmoji-config": "^1.4.7",
+    "cz-custom": "^0.0.2",
+    "husky": "^8.0.3",
+    "standard-version": "^9.5.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-custom"
+    }
+  }
+}
